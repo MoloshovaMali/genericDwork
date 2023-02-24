@@ -27,4 +27,12 @@ public class Box <T,M> {
     public static <T>T box(T name){
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "Box{" +
+                "name=" + name +
+                ", age=" + age +
+                '}';
+    }
 }
